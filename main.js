@@ -21,13 +21,47 @@
 //     }
 // }
 // sumnumber(5,5)
-var num = [n]
-function evennumbers(n){
-    for(var i=0; i<num.length;i++){
-        if(num[n]%2==0){
-            console.log(num[n]);
-        }
-    }
+// var num = [n]
+// function evennumbers(n){
+//     for(var i=0; i<num.length;i++){
+//         if(num[n]%2==0){
+//             console.log(num[n]);
+//         }
+//     }
 
+// }
+// evennumbers(20)
+
+// var num=["yehuda",1,"jl",4,"aslj",9];
+// for(var i=0; i<num.length;i++){
+//     if(num[i]*1!=num[i]){
+//         num[i]="not_number";
+//         console.log(num);
+//     }
+// }
+// var mystr="hello";
+// for(var i=0; i<mystr.length;i++){
+//     console.log(mystr[i]);
+// }    
+
+// var mystr="hello";
+// for(var i=0; i<mystr.length;i++){
+//     console.log(mystr[i]+i);
+// }
+
+// var names= prompt();
+// if(names[0]=="a"){
+//     console.log("a");
+// }
+// else{
+//     console.log("bye");
+// }
+
+var famely=prompt();
+if(famely[famely.length-1]=="e"){
+    console.log("yes");
 }
-evennumbers(20)
+else{
+    console.log("no");
+}
+
