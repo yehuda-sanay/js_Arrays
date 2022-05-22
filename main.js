@@ -57,11 +57,49 @@
 //     console.log("bye");
 // }
 
-var famely=prompt();
-if(famely[famely.length-1]=="e"){
-    console.log("yes");
+// var famely=prompt();
+// if(famely[famely.length-1]=="e"){
+//     console.log("yes");
+// }
+// else{
+//     console.log("no");
+// }
+
+
+// var numbers=[3,1,4,8,6];
+// var unm = 7;
+//  for(var i=0; i<numbers.length;i++){
+//      if(num==number){
+//          console.log(true);
+//      }
+//      else{
+//          console.log(false);
+//      }
+//  }
+
+// function trueOrfalse(numArray,num){
+//     for(var i=0; i<numArray.length; i++){
+//         if(numArray[i]==num){
+//             return true;
+//         }     
+//     }
+//     return false;
+// }
+
+function get (numArray){
+    for(var i=0; i<numArray.length; i++){
+        if(numArray&2==0){
+
+        }
+    }
+    
 }
-else{
-    console.log("no");
+
+function Copying (num1array,num2array){
+    if(num1array.length==num2array.length){
+
+    }
 }
+
+
 
